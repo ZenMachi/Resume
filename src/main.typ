@@ -42,21 +42,58 @@
     - Led the review and enhancement of Jasgo and Jasgo Driver applications, addressing critical user experience issues such as unclear container code formats, failed order cancellations, and missing loading indicators, significantly improving application usability and stability.
     - Improved application performance and user experience by optimizing map mechanisms in the customer app, reducing location selection time from 10-20 seconds to 3 seconds.
     - Implemented real-time chat functionality across Jasgo applications and Web Admin, troubleshooting and optimizing API calls to ensure timely message delivery and data synchronization.
-    - Addressed Issue where the API for map couldn't determine specific location such as sub-distric by implementing Google Maps application to resolve the issue.
-    - Adjust several module such as Order, Custom Rate and Driver while developing application
+    - Addressed Issue where the API for map couldn't determine specific location such as sub-distric by implementing Google Maps API to resolve the issue.
+    - Adjust several module such as Order, Custom Rate and Driver and deploy to Playstore while developing application.
+  ]
+
+  #work-heading(
+    "Multi-Platform App Developer Student",
+    "IDCamp",
+    "Remote",
+    datetime(year:2023, month:9, day:1),
+    datetime(year:2024, month:4, day:1),
+  )[
+    - Learn the fundamental of Dart and Flutter.
+    - Applied best practices at development process.
+    - Developed Restaurant app to provide user list of recommendation restaurant by implementing Material 3 as friendly user interface, use Http package to fetch data from internet and structured using feature based which improve maintainability.
+    - Received 4 certificates related to Front-end Development through Dicoding.
+  ]
+
+  #work-heading(
+    "Front-end Web Developer Training",
+    "IDCamp x KADIN",
+    "Remote",
+    datetime(year:2023, month:1, day:1),
+    datetime(year:2023, month:5, day:1),
+  )[
+    - Master the fundamental of HTML, CSS and Javascript.
+    - Implemented Webpack Module Bundler to deploy ready website. 
+    - Received 3 certificates related to Front-end Development through Dicoding.
+  ]
+
+  #work-heading(
+    "Laboratory Assistant",
+    "Universitas AKPRIND Indonesia",
+    "Yogyakarta",
+    datetime(year:2021, month:9, day:1),
+    datetime(year:2022, month:6, day:1),
+  )[
+    - Participate teach practicum course such System Operation, Object Oriented Programming and Image Processing.
+    - Helped mentee to overcome their problem.
+    - Providing feedback to mentee for future improvement.
   ]
 
 
   #work-heading(
-    "Assistant (to the) Regional Manager",
-    "Dunder Mifflin",
-    "Scranton, PA",
-    datetime(year:2008, month:3, day:1),
-    datetime(year:2013, month:3, day:1),
+    "Mobile Development Path Student",
+    "Bangkit Academy",
+    "Remote",
+    datetime(year:2022, month:2, day:1),
+    datetime(year:2013, month:7, day:1),
   )[
-    - Developed and enforced company policies through the creation of the “Schrute Bucks” incentive program, improving employee engagement
-    - Achieved record-breaking sales, earning the title of top salesperson for five consecutive years
-    - Supported managerial functions, including staff supervision, client relationship management, and strategic planning
+    - Master the fundamental concept and core skills as a Professional Android Developer.
+    - Received 5 certificates related to Android Development through Dicoding.
+    - Developed Loka providing solution to overcome lazyness of reading Frequently Asked Question.
   ]
 
   #work-heading(
