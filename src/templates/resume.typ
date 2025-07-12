@@ -19,7 +19,7 @@
   body
 ) = {
   set document(
-    title: "Résumé | " + author-name,
+    title: "CV | " + author-name,
     author: author-name,
     keywords: "cv",
     date: none

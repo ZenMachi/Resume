@@ -47,6 +47,19 @@
   ]
 
   #work-heading(
+    "Back-End Developer Student",
+    "IDCamp",
+    "Remote",
+    datetime(year:2024, month:9, day:1),
+    datetime(year:2025, month:6, day:1),
+  )[
+    - Learn in depth about Javascript such as structuring data, harmony modularization, asynchronus process and ensuring code quality.
+    - Achieve Expert level of class and received 6 certificates related to Back-End Development through Dicoding.
+    - Develop Forum API that implement Hapi.js and PostgreSQL, structured with Clean Architecture principle for scalability, protected with Jwt token to secure response, automated unit testing with Jest, deployed to server with Nginx to register domain also add TLS certificate, also implement CI/CD to automate deployment.
+  ]
+
+
+  #work-heading(
     "Multi-Platform App Developer Student",
     "IDCamp",
     "Remote",
@@ -55,8 +68,8 @@
   )[
     - Learn the fundamental of Dart and Flutter.
     - Applied best practices at development process.
-    - Developed Restaurant app to provide user list of recommendation restaurant by implementing Material 3 as friendly user interface, use Http package to fetch data from internet and structured using feature based which improve maintainability.
-    - Received 4 certificates related to Front-end Development through Dicoding.
+    - Developed Restaurant app to provide user list of recommendation restaurant by implementing Material 3 as friendly user interface, use Http package to fetch data from internet and structured using feature based architecture which improve maintainability.
+    - Achieve into Intermediate level and received 4 certificates related to Multi-Platform Development through Dicoding.
   ]
 
   #work-heading(
@@ -95,36 +108,12 @@
     - Received 5 certificates related to Android Development through Dicoding.
     - Developed Loka providing solution to overcome lazyness of reading Frequently Asked Question.
   ]
-
-  #work-heading(
-    "Sales Associate",
-    "Staples",
-    "Scranton, PA",
-    datetime(year:2008, month:3, day:1),
-    datetime(year:2008, month:3, day:1),
-  )[
-    - Recognized as “Employee of the Month” for outstanding sales performance within a single month
-    - Leveraged exceptional customer service skills to build a loyal client base
-    - Demonstrated leadership by training new hires on effective sales techniques
-  ]
-
-  #work-heading(
-    "Assistant (to the) Regional Manager",
-    "Dunder Mifflin",
-    "Scranton, PA",
-    datetime(year:2008, month:3, day:1),
-    datetime(year:2005, month:3, day:1),
-  )[
-    - Exceeded individual sales targets, contributing significantly to branch profitability
-    - Introduced “Schrute Bucks” as a motivational tool, fostering a competitive \& collaborative work environment
-    - Assisted in coordinating office events and initiatives to maintain team cohesion
-  ]
 ]
 
 
 #custom-title("Projects")[
   #project-heading(
-    "Schrute Farms (Bed and Breakfast)",
+    "Chatbot for Bahasa – FAQ (Loka)",
   )[
     - Established and managed a family-run agro-tourism business offering unique activities such as table-making workshops, beet farming tours, and hay rides
     - Increased guest bookings by 50% through effective online marketing and guest engagement
