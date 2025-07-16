@@ -6,6 +6,7 @@
 #let github = "ZenMachi"
 #let linkedin = "alhetawm"
 #let personal-site = "SOON"
+#let summary = "Highly motivated Software Engineer with a strong foundation in web and application development, demonstrated through optimizing application performance by over 70% and implementing scalable solutions. Proficient in modern technologies including Kotlin, Dart, and JavaScript, adept at applying Clean Architecture, Test-Driven Development, and CI/CD principles. Eager to leverage analytical problem-solving and collaborative skills to build innovative software solutions."
 
 #show: resume.with(
   top-margin: 0.45in,
@@ -39,11 +40,11 @@
     datetime(year:2025, month:3, day:9),
     datetime(year:2025, month:6, day:9),
   )[
-    - Led the review and enhancement of Jasgo and Jasgo Driver applications, addressing critical user experience issues such as unclear container code formats, failed order cancellations, and missing loading indicators, significantly improving application usability and stability.
-    - Improved application performance and user experience by optimizing map mechanisms in the customer app, reducing location selection time from 10-20 seconds to 3 seconds.
+    - Enhanced user experience and application stability by leading the review and enhancement of Jasgo and Jasgo Driver applications, resolving critical issues like unclear container code formats, failed order cancellations, and missing loading indicators.
+    - Optimized map mechanisms in the customer application, reducing location selection time by over 70% (from 10-20 seconds to 3 seconds), significantly improving application performance.
     - Implemented real-time chat functionality across Jasgo applications and Web Admin, troubleshooting and optimizing API calls to ensure timely message delivery and data synchronization.
-    - Addressed Issue where the API for map couldn't determine specific location such as sub-distric by implementing Google Maps API to resolve the issue.
-    - Adjust several module such as Order, Custom Rate and Driver and deploy to Playstore while developing application.
+    - Resolved location accuracy issues by integrating Google Maps API to determine specific locations, including sub-districts.
+    - Managed and deployed multiple module adjustments (Order, Custom Rate, Driver) to the Play Store during active application development. 
   ]
 
   #work-heading(
@@ -53,9 +54,10 @@
     datetime(year:2024, month:9, day:1),
     datetime(year:2025, month:6, day:1),
   )[
-    - Learn in depth about Javascript such as structuring data, harmony modularization, asynchronus process and ensuring code quality.
-    - Achieve Expert level of class and received 6 certificates related to Back-End Development through Dicoding.
-    - Develop Forum API that implement Hapi.js and PostgreSQL, structured with Clean Architecture principle for scalability, protected with Jwt token to secure response, automated unit testing with Jest, deployed to server with Nginx to register domain also add TLS certificate, also implement CI/CD to automate deployment.
+    - Mastered in-depth JavaScript concepts, including data structuring, modularization, asynchronous processing, and code quality assurance.
+    - Achieved Expert-level certification and received 6 related certificates in Back-End Development through Dicoding.
+    - Developed a scalable Forum API utilizing Hapi.js and PostgreSQL, adhering to Clean Architecture principles, securing responses with JWT tokens, and automating unit testing with Jest.
+    - Managed full deployment to production, leveraging Nginx for domain registration and TLS certificate integration, and implemented CI/CD pipelines to automate deployment processes.
   ]
 
 
@@ -66,10 +68,9 @@
     datetime(year:2023, month:9, day:1),
     datetime(year:2024, month:4, day:1),
   )[
-    - Learn the fundamental of Dart and Flutter.
-    - Applied best practices at development process.
-    - Developed Restaurant app to provide user list of recommendation restaurant by implementing Material 3 as friendly user interface, use Http package to fetch data from internet and structured using feature based architecture which improve maintainability.
-    - Achieve into Intermediate level and received 4 certificates related to Multi-Platform Development through Dicoding.
+    - Gained foundational expertise in Dart and Flutter, applying best practices throughout the development lifecycle.    - Applied best practices at development process.
+    - Developed a restaurant recommendation application using Material 3 for an intuitive user interface, leveraging the Http package for data fetching, and employing a feature-based architecture for improved maintainability.
+    - Achieved Intermediate-level certification and received 4 related certificates in Multi-Platform Development through Dicoding.
   ]
 
   #work-heading(
@@ -79,9 +80,9 @@
     datetime(year:2023, month:1, day:1),
     datetime(year:2023, month:5, day:1),
   )[
-    - Master the fundamental of HTML, CSS and Javascript.
-    - Implemented Webpack Module Bundler to deploy ready website. 
-    - Received 3 certificates related to Front-end Development through Dicoding.
+    - Proficiently mastered HTML, CSS, and JavaScript fundamentals.
+    - Implemented Webpack Module Bundler for efficient website deployment. 
+    - Received 3 related certificates in Front-end Development through Dicoding.
   ]
 
   #work-heading(
@@ -91,11 +92,12 @@
     datetime(year:2021, month:9, day:1),
     datetime(year:2022, month:6, day:1),
   )[
-    - Participate teach practicum course such System Operation, Object Oriented Programming and Image Processing.
-    - Helped mentee to overcome their problem.
-    - Providing feedback to mentee for future improvement.
+    - Instructed practical courses in System Operation, Object-Oriented Programming, and Image Processing.
+    - Provided direct support and mentorship to mentees, helping them overcome technical challenges.
+    - Offered constructive feedback to mentees for continuous improvement.
   ]
 
+  #linebreak()
 
   #work-heading(
     "Mobile Development Path Student",
@@ -104,43 +106,71 @@
     datetime(year:2022, month:2, day:1),
     datetime(year:2013, month:7, day:1),
   )[
-    - Master the fundamental concept and core skills as a Professional Android Developer.
-    - Received 5 certificates related to Android Development through Dicoding.
-    - Developed Loka providing solution to overcome lazyness of reading Frequently Asked Question.
+    - Acquired fundamental concepts and core skills as a professional Android Developer.
+    - Received 5 related certificates in Android Development through Dicoding.
+    - Developed "Loka," an Android application designed to provide an efficient solution for accessing Frequently Asked Questions, reducing the need for manual reading.
   ]
 ]
 
 
 #custom-title("Projects")[
+  #project-heading("Forum API",)[
+    - Developed with JavaScript Hapi.js adhering to Test-Driven Development (TDD) principles.
+    - Implemented Clean Architecture for robust scalability and maintainability.
+    - Deployed to a production server utilizing Nginx as a reverse proxy.
+  ]
+  
+  #project-heading("Personal Finance (PersoFi)",)[
+    - Designed with MVVM and Clean Architecture for scalability and modularity.
+    - Integrated Dagger and Hilt for efficient Dependency Injection.
+    - Utilized Material Design for a modern user interface.
+    - Managed data persistence with SQLite using the Room Library.
+  ]
+
+  #project-heading("Dicoding Story App",)[
+    - Built an unlimited scrolling stories application using Flutter.
+    - Managed UI state effectively with Provider. 
+    - Implemented Internationalization (I18n) localization for Indonesian users.
+    - Utilized GoRouter for streamlined and debug-friendly navigation.
+    - Integrated Google Maps API for story location sharing.
+    - Configured application variants for different release versions.
+  ]
+
+  #project-heading("Dicoding Restaurant App",)[
+    - Created a Flutter-based application for restaurant suggestions.
+    - Fetched data from a remote API using the Http package.
+    - Managed UI state with Provider and implemented daily restaurant recommendation notifications.
+  ]
+
+  #project-heading("Asesmen Kemampuan Membaca (Sekeca)",)[
+    - Developed an Android application to facilitate reading assessments for teachers.
+    - Leveraged Google Speech-to-Text API to match question patterns.
+    - Stored user information and scores in SQLite using the Room Library.
+  ]
+
+  #project-heading(
+    "Pokemon API Web App",
+  )[
+    - Utilized JavaScript AJAX for asynchronous data fetching from the PokeAPI.
+    - Styled the user interface with Bootstrap as the CSS framework.
+  ]
+
   #project-heading(
     "Chatbot for Bahasa – FAQ (Loka)",
   )[
-    - Established and managed a family-run agro-tourism business offering unique activities such as table-making workshops, beet farming tours, and hay rides
-    - Increased guest bookings by 50% through effective online marketing and guest engagement
-    - Maintained a 4.9/5 guest satisfaction rating on travel review platforms
-  ]
-
-  #project-heading(
-    "Dwight Schrute's Gym for Muscles",
-  )[
-    - Designed and equipped a workplace gym, promoting health and wellness for Dunder Mifflin employees
-    - Created a recycling program, offering monetary incentives (5 cents per yard of tin) to encourage sustainable practices
-  ]
-
-  #project-heading(
-    "Sesame Avenue Daycare Center for Infants and Toddlers",
-  )[
-    - Founded an innovative daycare focused on cognitive development and early learning strategies
-    - Developed specialized programs combining physical activities and educational games for children
+    - Developed an Android application providing an alternative solution for accessing FAQs, enhancing accessibility.
+    - Applied MVVM architecture for ease of maintenance.
   ]
 ]
 
 
 #custom-title("Skills")[
   #skills()[
-    - *Professional Skills:* Sales Expertise, Leadership, Conflict Resolution, Strategic Planning, Negotiation
-    - *Personal Traits:* Hardworking, Alpha Male, Jackhammer, Merciless, Insatiable
-    - *Specialized Talents:* Karate (Black Belt), Jujitsu, Werewolf Hunting, Table Making
+    - *Programming Languages:* Kotlin, Dart, JavaScript, PHP, SQL, HTML, CSS
+    - *Frameworks & Libraries:* Flutter, Hapi.js, Node.js, Material Design, Room, Dagger, Hilt, Provider, Jest, Nginx, Bootstrap, Google Maps API, Google Speech-to-Text API
+    - *Tools & Platforms:* Figma, Git, PostgreSQL, MySQL, SQLite, VS Code, Microsoft Office
+    - *Concepts & Methodologies:* Object-Oriented Programming (OOP), Clean Architecture, MVVM, Test-Driven Development (TDD), CI/CD, RESTful APIs, UI/UX Principles
+    - *Soft Skills:* Critical Thinking, Analytical Thinking, Logical Thinking, Leadership, Teamwork, Integrity, Project Management, Problem Solving
   ]
 ]
 
