@@ -68,7 +68,8 @@
     datetime(year:2023, month:9, day:1),
     datetime(year:2024, month:4, day:1),
   )[
-    - Gained foundational expertise in Dart and Flutter, applying best practices throughout the development lifecycle.    - Applied best practices at development process.
+    - Gained foundational expertise in Dart and Flutter, applying best practices throughout the development lifecycle.
+    - Applied best practices at development process.
     - Developed a restaurant recommendation application using Material 3 for an intuitive user interface, leveraging the Http package for data fetching, and employing a feature-based architecture for improved maintainability.
     - Achieved Intermediate-level certification and received 4 related certificates in Multi-Platform Development through Dicoding.
   ]
@@ -89,8 +90,8 @@
     "Laboratory Assistant",
     "Universitas AKPRIND Indonesia",
     "Yogyakarta",
-    datetime(year:2021, month:9, day:1),
-    datetime(year:2022, month:6, day:1),
+    datetime(year:2022, month:9, day:1),
+    datetime(year:2023, month:6, day:1),
   )[
     - Instructed practical courses in System Operation, Object-Oriented Programming, and Image Processing.
     - Provided direct support and mentorship to mentees, helping them overcome technical challenges.
@@ -104,7 +105,7 @@
     "Bangkit Academy",
     "Remote",
     datetime(year:2022, month:2, day:1),
-    datetime(year:2013, month:7, day:1),
+    datetime(year:2022, month:7, day:1),
   )[
     - Acquired fundamental concepts and core skills as a professional Android Developer.
     - Received 5 related certificates in Android Development through Dicoding.
